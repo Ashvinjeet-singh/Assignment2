@@ -1,43 +1,56 @@
 body
 {
-font-family: Helvetica;
+    font-family:Helvetica;
+    overflow-x: hidden;
 }
 
-.col-md-6 input
+.container-fluid
+{
+    background-color: #e5e5e5;
+}
+
+header
+{
+    background-color: #e5e5e5;
+}
+
+
+.Sitename
+{
+font-size: 36px;
+font-weight: bold;
+}
+
+.searchbar
 {
     border-radius: 25px;
-    width:231px;
-    height: 36px;
-    
 }
 
-header .container-fluid
+@media screen and (max-width:574px)
 {
-    background-color: #f2f2f2!important;
+    .asd
+    {
+        display:none;
+    }
 }
 
-.container-fluid .row .sitename
+footer
 {
-    font-size: 36px!important;
+    background-color: #e5e5e5;
 }
 
-.sitename h2
+.icon
 {
-    font-size:36px
+    font-size: 32px;
+}
+.ref
+{
+    border: solid black;
 }
 
-section .container-fluid .row .col p
-{
-    font-size: 16px;
-}
 
-.para1
+.card-horizontal
 {
-    font-size: 24px;
-
-}
-
-.para2
-{
-    font-size: 16px;
+    display:flex;
+    flex:1 1 auto;
 }
