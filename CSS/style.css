@@ -1,0 +1,56 @@
+body
+{
+    font-family:Helvetica;
+    overflow-x: hidden;
+}
+
+.container-fluid
+{
+    background-color: #e5e5e5;
+}
+
+header
+{
+    background-color: #e5e5e5;
+}
+
+
+.Sitename
+{
+font-size: 36px;
+font-weight: bold;
+}
+
+.searchbar
+{
+    border-radius: 25px;
+}
+
+@media screen and (max-width:574px)
+{
+    .asd
+    {
+        display:none;
+    }
+}
+
+footer
+{
+    background-color: #e5e5e5;
+}
+
+.icon
+{
+    font-size: 32px;
+}
+.ref
+{
+    border: solid black;
+}
+
+
+.card-horizontal
+{
+    display:flex;
+    flex:1 1 auto;
+}
