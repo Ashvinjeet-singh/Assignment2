@@ -2,6 +2,11 @@ body
 {
     font-family:Helvetica;
     overflow-x: hidden;
+
+}
+
+@media screen and (max-width:574px)
+{
 }
 
 .container-fluid
@@ -26,9 +31,9 @@ font-weight: bold;
     border-radius: 25px;
 }
 
-@media screen and (max-width:574px)
+@media screen and (max-width:778px)
 {
-    .asd
+    .hlink
     {
         display:none;
     }
@@ -45,12 +50,56 @@ footer
 }
 .ref
 {
-    border: solid black;
+    border: solid black 0.5px;
 }
 
 
-.card-horizontal
+
+@media screen and (min-width:778px)
 {
-    display:flex;
-    flex:1 1 auto;
+    .hamsign
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:778px)
+{
+    .clink
+    {
+        display:none;
+    }
+}
+
+@media screen and (max-width:778px)
+{
+    footer .footer_head
+    {
+        order:0
+    }
+}
+
+@media screen and (max-width:778px)
+{
+    footer .link1
+    {
+        order:1
+    }
+}
+
+@media screen and (max-width:808px)
+{
+    .ilink
+    {
+        
+        display: none;
+    }
+}
+
+@media screen and (max-width:778px)
+{
+    footer .copy
+    {
+        order:4
+    }
 }
